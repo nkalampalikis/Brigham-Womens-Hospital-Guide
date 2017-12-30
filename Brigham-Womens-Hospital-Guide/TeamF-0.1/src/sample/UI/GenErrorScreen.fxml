@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="298.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GenErrorController">
+   <children>
+      <MenuBar layoutY="-1.0" prefHeight="28.0" prefWidth="600.0">
+         <menus>
+            <Menu mnemonicParsing="false">
+               <graphic>
+                  <JFXButton alignment="CENTER" contentDisplay="CENTER" onAction="#back" prefHeight="27.0" prefWidth="15.0" ripplerFill="#8e8e8e">
+                     <graphic>
+                        <ImageView fitHeight="19.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Icons/closeButton.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </graphic>
+            </Menu>
+         </menus></MenuBar>
+      <Label layoutX="222.0" layoutY="74.0" text="Uh Oh!">
+         <font>
+            <Font name="Montserrat Regular" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="147.0" layoutY="139.0" prefHeight="20.0" prefWidth="263.0" text="Looks like you've encountered an error!" wrapText="true">
+         <font>
+            <Font name="Montserrat Regular" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="101.0" fitWidth="126.0" layoutX="450.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/sad.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
