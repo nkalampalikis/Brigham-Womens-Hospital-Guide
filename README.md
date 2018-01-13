@@ -1,4 +1,4 @@
-# Brigham-Womens-Hospital-Guide
+# Hospital-Guide
 A complete Java application with a GUl in FXML. The application includes features such as path finding and service requests.
 
 Project Overview
